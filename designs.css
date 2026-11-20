@@ -13,7 +13,7 @@ main { max-width: 1280px; margin: auto; padding: 46px 32px 32px; }
 h1, h2 { font-family: "Space Grotesk", sans-serif; letter-spacing: -.07em; }
 h1 { margin: 0; font-size: clamp(58px, 8vw, 105px); line-height: .9; }
 .intro-copy { max-width: 430px; margin: 24px 0 0; color: var(--muted); font-size: 16px; line-height: 1.55; }
-.options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.options { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
 .option { min-height: 600px; padding: 22px; border: 1px solid var(--line); position: relative; overflow: hidden; }
 .option-top { display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 1; }
 .number { font: 700 13px "Space Grotesk", sans-serif; }
@@ -43,6 +43,15 @@ h1 { margin: 0; font-size: clamp(58px, 8vw, 105px); line-height: .9; }
 .cursor { color: #ff765f; }
 .option-terminal h2 em { color: #ff765f; }
 .option-terminal .mini-links span { color: #dcf5b0; }
+.option-stealth { color: #edf2f1; background: #101515; border-color: #293736; }
+.option-stealth .tag, .option-stealth .eyebrow, .option-stealth .description { color: #829391; }
+.stealth-art { height: 245px; margin: 30px -22px 30px; position: relative; overflow: hidden; background: #0a0f0f; }
+.stealth-grid { position: absolute; inset: 0; opacity: .28; background-image: linear-gradient(rgba(127, 196, 184, .22) 1px, transparent 1px), linear-gradient(90deg, rgba(127, 196, 184, .22) 1px, transparent 1px); background-size: 32px 32px; transform: perspective(350px) rotateX(58deg) scale(1.7) translateY(28px); }
+.stealth-glow { position: absolute; width: 210px; height: 210px; top: 24px; left: 25%; border-radius: 50%; background: #75c4b0; filter: blur(55px); opacity: .35; }
+.stealth-mark { position: absolute; top: 72px; left: calc(50% - 35px); color: #d7fff1; font: 400 72px/1 "DM Sans", sans-serif; text-shadow: 0 0 30px #75c4b0; }
+.stealth-caption { position: absolute; right: 24px; bottom: 22px; color: #75c4b0; font: 700 9px "Space Grotesk", sans-serif; letter-spacing: .14em; }
+.option-stealth h2 em { color: #75c4b0; }
+.option-stealth .mini-links span { color: #d7fff1; }
 footer { padding-top: 40px; color: var(--muted); font-size: 11px; }
 @media (max-width: 850px) {
   .options { grid-template-columns: 1fr; max-width: 560px; }
