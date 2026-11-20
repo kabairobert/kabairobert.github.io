@@ -9,5 +9,4 @@ Open `index.html` in a browser, or serve the folder with any static file server.
 ## Links
 
 - Website: https://kabairobert.github.io/
-- Design directions: https://kabairobert.github.io/designs.html
 - GitHub: https://github.com/kabairobert
