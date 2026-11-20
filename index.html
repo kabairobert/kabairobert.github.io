@@ -3,67 +3,89 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="The personal website of Robert Kabai." />
-  <title>Robert Kabai — Personal site</title>
+  <meta name="theme-color" content="#0a0f0f" />
+  <meta name="description" content="Robert Kabai — building at the frontier of software and artificial intelligence." />
+  <title>Robert Kabai — Stealth AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true"></div>
   <header class="topbar">
-    <a class="wordmark" href="/">RK<span>.</span></a>
-    <a class="top-link" href="https://linktr.ee/robertkabai" target="_blank" rel="noreferrer">All links <span aria-hidden="true">↗</span></a>
+    <a class="wordmark" href="/" aria-label="Robert Kabai home">
+      <span class="mark">◌</span>
+      <span>ROBERT KABAI</span>
+    </a>
+    <a class="status" href="https://linktr.ee/robertkabai" target="_blank" rel="noreferrer">
+      <span class="status-dot"></span>
+      <span>Available for selected work</span>
+    </a>
   </header>
 
   <main>
-    <section class="hero" aria-labelledby="intro-title">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="grid" aria-hidden="true"></div>
+      <div class="orbit orbit-a" aria-hidden="true"></div>
+      <div class="orbit orbit-b" aria-hidden="true"></div>
+
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> Welcome to my corner of the web</p>
-        <h1 id="intro-title">Robert<br /><em>Kabai</em></h1>
-        <p class="lede">A simple home base for the things I’m building, exploring, and sharing online.</p>
+        <p class="eyebrow"><span>RK / 001</span> Software · AI · Systems</p>
+        <h1 id="hero-title">Building what<br /><em>comes next.</em></h1>
+        <p class="lede">Exploring the frontier of intelligent software — turning ambitious ideas into systems that work.</p>
         <div class="actions">
-          <a class="button button-primary" href="https://linktr.ee/robertkabai" target="_blank" rel="noreferrer">Explore my links <span aria-hidden="true">↗</span></a>
-          <a class="button button-ghost" href="https://github.com/kabairobert" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="https://linktr.ee/robertkabai" target="_blank" rel="noreferrer">
+            Start a conversation <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-secondary" href="https://github.com/kabairobert" target="_blank" rel="noreferrer">
+            View research <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </div>
-      <div class="hero-art" aria-label="Abstract graphic">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="cross cross-one"></div>
-        <div class="cross cross-two"></div>
-        <p class="art-label">ROBERT<br />KABAI</p>
+
+      <div class="signal" aria-label="Abstract AI signal">
+        <div class="signal-core"></div>
+        <div class="signal-ring ring-one"></div>
+        <div class="signal-ring ring-two"></div>
+        <div class="signal-ring ring-three"></div>
+        <span class="signal-label label-a">01 / MODEL</span>
+        <span class="signal-label label-b">02 / SYSTEM</span>
+        <span class="signal-label label-c">03 / SIGNAL</span>
       </div>
     </section>
 
-    <section class="links-section" aria-labelledby="links-title">
-      <div class="section-heading">
-        <p class="eyebrow">Find me online</p>
-        <h2 id="links-title">Start anywhere.</h2>
-      </div>
-      <div class="link-grid">
-        <a class="link-card featured" href="https://linktr.ee/robertkabai" target="_blank" rel="noreferrer">
-          <span class="card-icon">↗</span><span><strong>Linktree</strong><small>Everything in one place</small></span><span class="arrow">→</span>
-        </a>
-        <a class="link-card" href="https://github.com/kabairobert" target="_blank" rel="noreferrer">
-          <span class="card-icon">⌘</span><span><strong>GitHub</strong><small>Projects and experiments</small></span><span class="arrow">→</span>
-        </a>
-        <a class="link-card" href="https://github.com/kabairobert?tab=repositories" target="_blank" rel="noreferrer">
-          <span class="card-icon">＋</span><span><strong>Repositories</strong><small>Browse my public work</small></span><span class="arrow">→</span>
-        </a>
+    <section class="focus" aria-labelledby="focus-title">
+      <p class="section-index">01 — Current focus</p>
+      <h2 id="focus-title">Human intent.<br />Machine capability.</h2>
+      <div class="focus-list">
+        <article>
+          <span>01</span>
+          <h3>Applied AI</h3>
+          <p>Useful systems shaped around real people and real problems.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Software</h3>
+          <p>Clear, resilient products built for a world that keeps changing.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Exploration</h3>
+          <p>Open experiments at the edge of current understanding.</p>
+        </article>
       </div>
     </section>
 
-    <section class="note" aria-label="About this site">
-      <p>This site is intentionally small: one place to say hello, discover my links, and follow along.</p>
-      <span class="line"></span>
-      <p class="muted">Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+    <section class="contact" aria-label="Contact">
+      <p>Private by default. Ambitious by nature.</p>
+      <a href="https://linktr.ee/robertkabai" target="_blank" rel="noreferrer">Enter the network <span>↗</span></a>
     </section>
   </main>
 
-  <footer><span>© 2026 Robert Kabai</span><span>Made on the internet <span class="heart">✦</span></span></footer>
+  <footer>
+    <span>© 2026 Robert Kabai</span>
+    <span>Independent · Remote · Global</span>
+  </footer>
 </body>
 </html>
