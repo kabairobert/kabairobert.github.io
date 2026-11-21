@@ -74,3 +74,10 @@ footer { height: 100px; padding: 0 32px; display: flex; align-items: center; jus
 @media (max-width: 520px) {
   .topbar, footer { padding-left: 20px; padding-right: 20px; }.hero-copy { padding-left: 20px; padding-right: 20px; }.focus { padding: 80px 20px; }.contact { margin: 0 20px; }.actions { flex-direction: column; align-items: flex-start; }.button { width: 220px; }.wordmark { font-size: 10px; }.contact { display: block; padding: 45px 0; }.contact a { margin-top: 36px; justify-content: space-between; }footer { gap: 20px; }
 }
+
+
+.focus-list a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
